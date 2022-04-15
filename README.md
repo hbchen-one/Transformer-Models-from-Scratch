@@ -5,3 +5,7 @@ This repository contains various tranformer models that I implemented from scrat
 2. decoder-only transformer model (GPT-like) for doing addition 
     - [GPT_Addition.ipynb](https://github.com/hbchen2021/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)  
 5. and more to be added...
+
+[Transformer_details.pdf](https://github.com/hbchen2021/Transformer-Models-from-Scratch/blob/main/Transformer_details.pdf) contains some details of the transformer model that I
+found a little bit confusing when I first tried to implement it from
+scratch.
