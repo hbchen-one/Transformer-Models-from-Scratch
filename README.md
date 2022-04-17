@@ -17,5 +17,4 @@ This repository contains various tranformer models that I implemented from scrat
 found a little bit confusing when I first tried to implement it from
 scratch.
 
-## Reference 
-
+## References
