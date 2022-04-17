@@ -15,3 +15,6 @@ This repository contains various tranformer models that I implemented from scrat
 [Transformer_details.pdf](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_details.pdf) contains some details of the transformer model that I
 found a little bit confusing when I first tried to implement it from
 scratch.
+
+## Reference 
+
