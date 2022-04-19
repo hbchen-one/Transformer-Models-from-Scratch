@@ -8,7 +8,7 @@ This repository contains various tranformer models that I implemented from scrat
     - [GPT_Addition.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)
 
 3. full transformer model (encoder + decoder) for machine translation 
-    - [Transformer_Multi30k_German_to_English.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Multi30k_German_to_English.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Multi30k_German_to_English.ipynb) trained a transformer model of about 26 million parameters on the Multi30k dataset, and achived a BLEU score of 34.88.
+    - [Transformer_Multi30k_German_to_English.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Multi30k_German_to_English.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Multi30k_German_to_English.ipynb) trained a transformer model of about 26 million parameters on the Multi30k dataset, and achived a BLEU score of 34.9.
 
 5. and more to be added...
 
