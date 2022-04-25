@@ -21,6 +21,8 @@ found a little bit confusing when I first tried to implement it from
 scratch.
 
 ## References
-1. [The Annotated Transformer by Alexander Rush] (https://nlp.seas.harvard.edu/2018/04/03/attention.html)
-2. [Andrej Karpathy's minGPT Github repository] (https://github.com/karpathy/minGPT)
+1. the Attention Is All You Need paper [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762.pdf)
+2. [The Annotated Transformer by Alexander Rush](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
+3. GPT-3: [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+4. Andrej Karpathy's minGPT Github repository: [karpathy/minGPT](https://github.com/karpathy/minGPT)
 
