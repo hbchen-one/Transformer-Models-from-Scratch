@@ -5,8 +5,10 @@ This repository contains various transformer models that I implemented from scra
     - [Encoder_only_transformer_AG_News_classification.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) 
 
 2. decoder-only transformer model (GPT-like) trained for doing n-digit addition 
-    - [GPT_Addition.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)
-
+    - [GPT_Addition.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb) 
+        - The same model is trained on 2-digit, 5-digit, 10-digit and 18-digit additions separately, and it got all the 2-digit addition right, and only a very small fraction of the higher digit additions wrong (test accuracy is about 98%). 
+        - The wrong answers that the model gave are mostly off by one or two digits.
+     
 3. full transformer model (encoder + decoder) for machine translation 
     - [Transformer_Multi30k_German_to_English.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Multi30k_German_to_English.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Multi30k_German_to_English.ipynb) trained a transformer model of about 26 million parameters on the Multi30k dataset, and achieved a BLEU score of 34.9.
     - [Transformer_Chinese_To_English_Translation_news-commentary-v16.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Chinese_To_English_Translation_news-commentary-v16.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_Chinese_To_English_Translation_news-commentary-v16.ipynb) trained a transformer with about 90 million parameters on the news-commentary-v16 dataset. The main purpose of this notebook is to study how the performance of the model (test loss and BLEU score) changes as training set size increases. The result is shown in the plots at the end of this notebook.
@@ -19,3 +21,8 @@ found a little bit confusing when I first tried to implement it from
 scratch.
 
 ## References
+1. the Attention Is All You Need paper [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762.pdf)
+2. [The Annotated Transformer by Alexander Rush](https://nlp.seas.harvard.edu/2018/04/03/attention.html)
+3. GPT-3: [Language Models are Few-Shot Learners](https://arxiv.org/pdf/2005.14165.pdf)
+4. Andrej Karpathy's minGPT Github repository: [karpathy/minGPT](https://github.com/karpathy/minGPT)
+
