@@ -18,7 +18,7 @@ This repository contains various transformer models that I implemented from scra
 ## Notes
 [Transformer_details.pdf](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_details.pdf) contains some details of the transformer model that I
 found a little bit confusing when I first tried to implement it from
-scratch.
+scratch. [HTML version](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Transformer_details.pdf)
 
 ## References
 1. the Attention Is All You Need paper [arXiv:1706.03762](https://arxiv.org/pdf/1706.03762.pdf)
