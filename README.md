@@ -2,7 +2,7 @@
 This repository contains various transformer models that I implemented from scratch when I started to learn Machine Learning. These models include:
 
 1. encoder-only transformer model for text classification:
-    - [Encoder_only_transformer_AG_News_classification.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) trained a simple encoder-only transformer model for doing text classification on the AG News dataset. It easily achieves a accuracy of about 91%.
+    - [Encoder_only_transformer_AG_News_classification.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) trained a simple encoder-only transformer model for doing text classification on the AG News dataset. It easily achieves a accuracy of about 91.9%.
 
 2. decoder-only transformer model (GPT-like) trained for doing n-digit addition 
     - [GPT_Addition.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb) 
