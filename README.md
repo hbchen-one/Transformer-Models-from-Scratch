@@ -7,7 +7,7 @@ This repository contains various transformer models that I implemented from scra
 
 2. decoder-only transformer model (GPT-like) trained for doing n-digit addition 
     - [GPT_Addition.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/GPT_Addition.ipynb) 
-        - The same model is trained on 2-digit, 5-digit, 10-digit and 18-digit additions separately, and it got all the 2-digit addition right, and only a very small fraction of the higher digit additions wrong (test accuracy for 18-digit is about 96.6%). 
+        - The same model (with only about 0.28 million parameters) is trained on 2-digit, 5-digit, 10-digit and 18-digit additions separately, and it got all the 2-digit addition right, and only a very small fraction of the higher digit additions wrong (test accuracy for 18-digit is about 96.6%). 
         - The wrong answers that the model gave are mostly off by one or two digits.
      
 3. full transformer model (encoder + decoder) for machine translation 
