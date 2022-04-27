@@ -1,5 +1,5 @@
 # Transformer-Models-from-Scratch
-This repository contains various transformer models that I implemented from scratch when I started to learn Machine Learning. These models include:
+This repository contains various transformer models that I implemented from scratch (using PyTorch) when I started to learn Machine Learning. These models include:
 
 1. encoder-only transformer model for text classification:
     - [Encoder_only_transformer_AG_News_classification.ipynb](https://github.com/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hbchen-one/Transformer-Models-from-Scratch/blob/main/Encoder_only_transformer_AG_News_classification.ipynb)
